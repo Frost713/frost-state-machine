@@ -3,11 +3,10 @@ state-machine
 以简化的订单状态机为例子，做了一个演示。
 
 状态机核心类图：
-![](https://github.com/Mr-LuXiaoHua/dohko-state-machine/blob/master/imgs/state-machine-class.png)
-
+![](https://github.com/Frost713/frost-state-machine/blob/master/imgs/state-machine-class.png)
 
 订单状态机：
-![](https://github.com/Mr-LuXiaoHua/dohko-state-machine/blob/master/imgs/order-state-machine.png)
+![](https://github.com/Frost713/frost-state-machine/blob/master/imgs/order-state-machine.png)
 
 
 #### 核心类说明
