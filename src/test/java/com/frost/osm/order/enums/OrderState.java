@@ -6,6 +6,15 @@ public enum OrderState {
     // 提交订单
     SUBMIT_ORDER,
 
+    // 交付订单
+    DELIVERY_ORDER,
+
+    // 数据工程订单
+    DATA_PROJECT_ORDER,
+
+    // 处理中
+    WAIT_PROCESS,
+
     // 待支付
     WAIT_PAY,
 
@@ -17,12 +26,6 @@ public enum OrderState {
 
     // 订单完成
     COMPLETE,
-
-    // 交付订单
-    DELIVERY_ORDER,
-
-    // 数据工程订单
-    DATA_PROJECT_ORDER,
 
     // 订单关闭
     CLOSED
