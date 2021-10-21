@@ -25,6 +25,7 @@ public class Order implements StateMachineDomain<OrderState> {
         return this.state;
     }
 
+    @Override
     public void setNextState(OrderState orderState) {
         this.state = orderState;
     }

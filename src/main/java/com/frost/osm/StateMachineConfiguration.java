@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+/**
+ * @author frost
+ */
 @Data
 public class StateMachineConfiguration<S, E, H> {
 

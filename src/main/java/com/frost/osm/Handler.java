@@ -1,6 +1,9 @@
 package com.frost.osm;
 
 
+/**
+ * @author frost
+ */
 public interface Handler<S> {
 
 

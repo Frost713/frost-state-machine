@@ -1,5 +1,8 @@
 package com.frost.osm;
 
+/**
+ * @author frost
+ */
 public class StateMachine<S, E, H extends Handler> {
 
     private StateMachineConfigurationHolder<S, E,H> stateMachineConfigurationHolder;

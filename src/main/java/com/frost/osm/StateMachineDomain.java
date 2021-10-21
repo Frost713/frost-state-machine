@@ -1,6 +1,9 @@
 package com.frost.osm;
 
 
+/**
+ * @author frost
+ */
 public interface StateMachineDomain<S> {
 
    /**
@@ -10,7 +13,8 @@ public interface StateMachineDomain<S> {
    S getCurrentState();
 
    /**
-    * 设置次态
+    * 设置状态流转下个状态
+    * @param s 状态
     */
    void setNextState(S s);
 
